@@ -68,12 +68,13 @@ a {
 
 .experience__image {
     width: 72%;
-    height: 592px;
+    height: 100vh;
     background-image: url(/image/Rectangle.png);
     background-size: cover;
     background-repeat: no-repeat;
     margin-left: -14%;
     position: relative;
+    z-index: -2;
 }
 
 .experience__image::after {
@@ -86,10 +87,12 @@ a {
     position: absolute;
     top: 0;
     width: 100%;
+    z-index: -2;
 }
 
 .experience__text-content {
     width: 38%;
+    z-index: 1;
 }
 
 .experience__text, .experience__link {
