@@ -2,6 +2,10 @@ p {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 .page {
     max-width: 1440px;
     margin: 0 auto;
@@ -11,6 +15,7 @@ p {
     line-height: 26px;
 }
 
+/* блок header */
 .header {
     position: relative;
 }
@@ -25,7 +30,7 @@ p {
 }
 
 .header__title {
-    width: 40%;
+    width: 52%;
     font-size: 36px;
     line-height: 48px;
     letter-spacing: 0.03em;
@@ -33,7 +38,7 @@ p {
 }
 
 .header__subtitle {
-    width: 31.5%;
+    width: 40.5%;
     margin-bottom: 56px;
 }
 
@@ -41,34 +46,71 @@ p {
     width: 156px;
     height: 47px;
     margin-right: 2.5%;
-    padding-bottom: 164px;
+    padding-bottom: 130px;
 }
 
 .header__image {
-    width: 388px;
-    height: 437px;
-    background-image: url(/image/phone.png);
+    width: 774px;
+    height: 626px;
+    background-image: url(/image/phones.png);
     background-size: cover;
+    background-repeat: no-repeat;
     position: absolute;
-    top: -230px;
-    right: -300px;
+    top: -10%;
+    right: -14%;
+    z-index: -2;
 }
 
-.second  {
-    right: 0;
+/* блок experience */
+.experience {
+    display: flex;
 }
 
-.third  {
-    top: 200px;
-    right: -400px;
+.experience__image {
+    width: 72%;
+    height: 592px;
+    background-image: url(/image/Rectangle.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: -14%;
+    position: relative;
 }
 
-.fourth {
-    top: 200px;
-    right: -50px;
+.experience__image::after {
+    background: transparent;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 1) 90%);
+    content: "";
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
 }
 
-.five {
-    top: 200px;
-    right: 250px;
+.experience__text-content {
+    width: 38%;
+}
+
+.experience__text, .experience__link {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    color: #00ADEE;
+    margin: 133px 0 27px 0;
+}
+
+.experiece__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 37px;
+    margin: 0;
+}
+
+.experience__contant {
+    font-size: 16px;
+    line-height: 23px;
+    margin: 27px 0 22px 0;
 }
