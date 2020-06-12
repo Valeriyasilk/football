@@ -1,0 +1,83 @@
+.experience {
+    display: flex;
+}
+
+.experience__image {
+    width: 72%;
+    height: 592px;
+    background-image: url(/image/Rectangle.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-right: 3px solid #fff;
+    border-top: 3px solid #fff;
+    margin-left: -14%;
+    position: relative;
+    z-index: 1;
+}
+
+.experience__image::after {
+    background: transparent;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 1) 90%);
+    content: "";
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.experience__img {
+    width: 360px;
+    height: 218px;
+    position: absolute;
+}
+
+.experience__img:first-child {
+    background-image: url(/image/sample.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 109px;
+    left: 163px;
+    z-index: 3;
+}
+
+.experience__img:last-child {
+    background-image: url(/image/board.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 296px;
+    left: 269px;
+    z-index: 2;
+}
+
+.experience__text-content {
+    width: 38%;
+    z-index: 2;
+}
+
+.experience__text, .experience__link {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    color: #00ADEE;
+    margin: 133px 0 27px 0;
+}
+
+.experiece__title {
+    font-size: 28px;
+    line-height: 37px;
+    margin: 0;
+}
+
+.experience__contant {
+    font-size: 16px;
+    line-height: 23px;
+    margin: 27px 0 22px 0;
+}
+
+.experience__link {
+    padding-bottom: 117px;
+}

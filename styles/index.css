@@ -1,3 +1,16 @@
+
+@import url('/blocks/header/header.css');
+@import url('/blocks/experience/experience.css');
+@import url('/blocks/blue/blue.css');
+@import url('/blocks/get-up/get-up.css');
+@import url('/blocks/interface/interface.css');
+@import url('/blocks/spansors/sponsors.css');
+@import url('/blocks/footer/footer.css');
+
+
+
+
+
 p {
     margin: 0;
 }
@@ -15,105 +28,3 @@ a {
     line-height: 26px;
 }
 
-/* блок header */
-.header {
-    position: relative;
-}
-
-.logo {
-    display: flex;
-}
-
-.logo__image {
-    width: 24px;
-    height: 23px;
-}
-
-.header__title {
-    width: 52%;
-    font-size: 36px;
-    line-height: 48px;
-    letter-spacing: 0.03em;
-    margin: 133px 0 30px 0;
-}
-
-.header__subtitle {
-    width: 40.5%;
-    margin-bottom: 56px;
-}
-
-.header__store-item {
-    width: 156px;
-    height: 47px;
-    margin-right: 2.5%;
-    padding-bottom: 130px;
-}
-
-.header__image {
-    width: 774px;
-    height: 626px;
-    background-image: url(/image/phones.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: -10%;
-    right: -14%;
-    z-index: -2;
-}
-
-/* блок experience */
-.experience {
-    display: flex;
-}
-
-.experience__image {
-    width: 72%;
-    height: 100vh;
-    background-image: url(/image/Rectangle.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-left: -14%;
-    position: relative;
-    z-index: -2;
-}
-
-.experience__image::after {
-    background: transparent;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 1) 90%);
-    content: "";
-    display: block;
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    z-index: -2;
-}
-
-.experience__text-content {
-    width: 38%;
-    z-index: 1;
-}
-
-.experience__text, .experience__link {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 21px;
-    color: #00ADEE;
-    margin: 133px 0 27px 0;
-}
-
-.experiece__title {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 28px;
-    line-height: 37px;
-    margin: 0;
-}
-
-.experience__contant {
-    font-size: 16px;
-    line-height: 23px;
-    margin: 27px 0 22px 0;
-}

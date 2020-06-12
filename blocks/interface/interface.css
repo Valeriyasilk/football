@@ -1,0 +1,43 @@
+.interface {
+    display: flex;
+    position: relative;
+}
+
+.interface__text-contant {
+    padding-top: 217px;
+}
+
+.interface__text,
+.interface__link {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    color: #00ADEE;
+}
+
+.interface__title {
+    font-size: 28px;
+    line-height: 37px;
+}
+
+.interface__contant {
+    width: 43.5%;
+    font-size: 16px;
+    line-height: 23px;
+    margin-top: 27px;
+}
+
+.interface__link {
+margin: 54px 0 117px 0;
+}
+
+.interface__image {
+    width: 65%;
+    height: 716px;
+    background-image: url(/image/SAMPLE05.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: -11%;
+}
